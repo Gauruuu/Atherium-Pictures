@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflowY = 'auto'; 
             document.getElementById('home').classList.add('in-view'); 
         }, 1000); 
-    }, 2800); 
+    }, 7800); 
 
     // 2. Scroll Animation (Intersection Observer)
     const observer = new IntersectionObserver((entries, observer) => {
