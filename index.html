@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atherium Pictures - From on Paper to on Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Atherium PicturesAP.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <img src="Atherium Pictures.png" alt="Atherium Pictures Logo" class="splash-logo">
+        <p class="tagline">From on Paper to on Screen</p>
+    </div>
+
+    <main id="main-content" class="hidden">
+
+        <header id="navbar">
+            <div class="logo">
+                <a href="#home"><img src="Atherium PicturesAP.png" alt="AP Logo" class="nav-ap-logo"></a>
+            </div>
+            <nav>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#collaborations">COLLABS</a>
+                <a href="#enquiry">ENQUIRY</a>
+            </nav>
+        </header>
+
+        <section id="home" class="hero-section content-section">
+            <img src="Atherium Pictures.png" alt="Atherium Pictures Logo" class="hero-full-logo">
+            <h1 class="tagline-large">From on Paper to on Screen</h1>
+        </section>
+
+        <section id="portfolio" class="content-section dark-gradient">
+            <h2 class="section-title">Atherium Originals</h2>
+            <div class="project-block">
+                <div class="video-preview">
+                    <img src="thumbnail.jpg" alt="Official Portfolio Reel" class="thumbnail-image">
+                    <div class="play-overlay">
+                        <a href="https://www.youtube.com/watch?v=5PF1dS0xVGw&list=PLLturGOXMAQsKxYkpXKaYcxd6MB0_Np1u" target="_blank" aria-label="Play YouTube Playlist">
+                            <span class="play-icon">▶</span>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Official Portfolio Reel (Playlist)</h3>
+            </div>
+        </section>
+
+        <section id="collaborations" class="content-section">
+            <h2 class="section-title">Collaborations</h2>
+            <div class="client-grid">
+                <div class="client-card">
+                    <img src="bab.jpg" alt="Work for Bablu Patil" class="client-work-preview">
+                    <h3>Bablu Patil</h3>
+                    <a href="https://www.instagram.com/bablu_patil_official/" target="_blank">@bablu_patil_official</a>
+                </div>
+                <div class="client-card">
+                    <img src="sid.jpg" alt="Work for Sid Shinde" class="client-work-preview">
+                    <h3>Sid Shinde</h3>
+                    <a href="https://www.instagram.com/si_d_shinde/" target="_blank">@si_d_shinde</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="enquiry" class="content-section dark-gradient">
+            <h2 class="section-title">LET'S CREATE TOGETHER</h2>
+            
+            <form id="enquiry-form" action="https://api.web3forms.com/submit" method="POST">
+                
+                <input type="hidden" name="access_key" value="b2cc5b37-2883-4c7f-bd50-317e7346976f">
+                <input type="hidden" name="subject" value="New Project Enquiry from Atherium Pictures Website">
+
+
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <textarea name="brief" placeholder="Project Brief / Details" rows="5" required></textarea>
+
+                <div class="service-options">
+                    <label class="service-option-header">Required Services:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="service[]" value="Pre-Production"> Pre-Production</label>
+                        <label><input type="checkbox" name="service[]" value="Production"> Production</label>
+                        <label><input type="checkbox" name="service[]" value="Post-Production"> Post-Production</label>
+                        <label><input type="checkbox" name="service[]" value="All Stages"> All Stages</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-button">SEND ENQUIRY</button>
+            </form>
+        </section>
+
+        <footer class="dark-footer">
+            <div class="social-links">
+                <a href="https://www.youtube.com/@atheriumpictures" target="_blank" aria-label="YouTube" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/atheriumpictures/" target="_blank" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Atherium Pictures.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
