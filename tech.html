@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atherium Pictures | Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ATHERIUM PICTURES</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="tech.html" class="active">Tech</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container reveal">
+            <h1>Innovation</h1>
+            <p class="subtitle">Tools for the Modern Creator</p>
+        </div>
+    </div>
+
+    <section id="technology">
+        <div class="container reveal">
+            <h2 class="section-title">AP Script Sync</h2>
+            <div class="tech-container">
+                <div class="tech-info">
+                    <h3 style="font-size: 2rem; margin-bottom: 20px; color: #fff;">The Future of Screenwriting</h3>
+                    <p style="margin-bottom: 20px; color: #bbb;">
+                        Our in-house proprietary software designed to streamline the scriptwriting process. Features real-time formatting, character management, and cloud sync.
+                    </p>
+                    <div class="platform-icons" style="margin-bottom: 30px;">
+                        <i class="fab fa-windows" title="Windows"></i>
+                        <i class="fab fa-android" title="Android"></i>
+                        <i class="fab fa-apple" title="iOS"></i>
+                    </div>
+                    <a href="#" target="_blank" class="cta-btn"><button style="background-color: transparent; border: none;" class="cta-btn" disabled>Currently Not Available for all Users</button></a>
+                </div>
+                <div class="tech-preview">
+                    <img src="https://via.placeholder.com/600x400/111/333?text=AP+Script+Sync+Interface" alt="AP Script Sync">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2025 Atherium Pictures.</p></footer>
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                if (reveals[i].getBoundingClientRect().top < window.innerHeight - 150) { reveals[i].classList.add('active'); }
+            }
+        }
+        reveal();
+    </script>
+</body>
+</html>

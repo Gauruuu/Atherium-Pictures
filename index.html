@@ -1,161 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atherium Pictures - From on Paper to on Screen</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="shortcut icon" href="Atherium PicturesAP.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atherium Pictures | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Atherium PicturesAP.png" type="image/x-icon">
 </head>
 <body>
+    <div id="splash-screen">
+        <div class="splash-logo">ATHERIUM PICTURES</div>
+        <div class="splash-loader"></div>
+    </div>
 
-    <div id="splash-screen">
-        <img src="APLgif.gif" alt="Atherium Pictures Logo" class="splash-logo">
-        <p class="tagline">From on Paper to on Screen</p>
-    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ATHERIUM PICTURES</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <main id="main-content" class="hidden">
+    <section id="hero">
+        <div class="container reveal">
+            <h1>ATHERIUM PICTURES</h1>
+            <p class="subtitle">From on Paper to on Screen</p>
+            <a href="#upcoming" class="cta-btn">View Projects</a>
+        </div>
+    </section>
 
-        <header id="navbar">
-            <div class="logo">
-                <a href="#home"><img src="Atherium PicturesAP.png" alt="AP Logo" class="nav-ap-logo"></a>
-            </div>
-            <nav>
-                <a href="#portfolio">PORTFOLIO</a>
-                <a href="#services">SERVICES</a>                 <a href="#collaborations">COLLABS</a>
-                <a href="#enquiry">ENQUIRY</a>
-            </nav>
-        </header>
+    <section id="portfolio" style="background: #111; text-align: center;">
+        <div class="container reveal">
+            <h2 class="section-title">Upcoming Release</h2>
+            <div style="font-size: 2rem; color: #fff; margin: 20px 0; text-shadow: 0 0 10px var(--gold);">
+                THIS VALENTINE'S WEEK<br>
+                <span style="color: var(--gold); font-weight: bold; font-size: 3rem;">FEBRUARY 2026</span>
+            </div>
+        </div>
+    </section>
 
-        <section id="home" class="hero-section content-section">
-            <img src="Atherium Pictures.png" alt="Atherium Pictures Logo" class="hero-full-logo">
-            <h1 class="tagline-large">From on Paper to on Screen</h1>
-        </section>
+    <section id="upcoming">
+        <div class="container reveal">
+            <h2 class="section-title">Production Status</h2>
+            <div class="status-board">
+                <div class="status-col">
+                    <h3>Pre-Production</h3>
+                    <div class="project-item"><strong>Cake Murder</strong><span>Scripting Phase</span></div>
+                    <div class="project-item"><strong>The Untold Cursed</strong><span>Concept Development</span></div>
+                </div>
+                <div class="status-col">
+                    <h3>Production</h3>
+                    <div class="project-item"><strong>Har Pal</strong><span>Shooting Starting Soon</span></div>
+                </div>
+                <div class="status-col">
+                    <h3>Post-Production</h3>
+                    <div class="project-item"><span>Currently no projects in Post Production</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <section id="releases" class="content-section dark-gradient">
-            <h2 class="section-title">New Releases</h2>
-            <div class="project-block">
-                <div class="video-preview">
-                    <img src="WhatsApp Image 2025-10-20 at 21.50.18_76505d6a.jpg" alt="Official Portfolio Reel" class="thumbnail-image">
-                    <div class="play-overlay">
-                        <a href="https://www.youtube.com/watch?v=e3_3wYV1zUk&t=642s" target="_blank" aria-label="Play YouTube Playlist">
-                            <span class="play-icon">▶</span>
-                        </a>
-                    </div>
-                </div>
-                <h3 class="project-title">Official Portfolio Reel (Playlist)</h3>
-            </div>
-        </section>
-        <section id="portfolio" class="content-section dark-gradient">
-            <h2 class="section-title">Atherium Originals</h2>
-            <div class="project-block">
-                <div class="video-preview">
-                    <img src="thumbnail.jpg" alt="Official Portfolio Reel" class="thumbnail-image">
-                    <div class="play-overlay">
-                        <a href="https://www.youtube.com/watch?v=5PF1dS0xVGw&list=PLLturGOXMAQsKxYkpXKaYcxd6MB0_Np1u" target="_blank" aria-label="Play YouTube Playlist">
-                            <span class="play-icon">▶</span>
-                        </a>
-                    </div>
-                </div>
-                <h3 class="project-title">Official Portfolio Reel (Playlist)</h3>
-            </div>
-        </section>
+    <section id="collabs">
+        <div class="container reveal">
+            <h2 class="section-title">Collaborations</h2>
+            <div class="collab-grid">
+                <div class="collab-card"><h4>Bablu Patil</h4><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="collab-card"><h4>Sid Shinde</h4><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="collab-card"><h4>Phone World</h4><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="collab-card"><h4>CCC</h4><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="collab-card"><h4>And many more...</h4><a href="#" target="_blank"></a></div>
+            </div>
+        </div>
+    </section>
 
-                <section id="services" class="content-section">
-            <h2 class="section-title">PROJECT STATUS: IN THE PIPELINE</h2>
-            <div class="services-grid">
-                <div class="service-card project-phase pre-production">
-                    <h3><i class="fas fa-edit"></i> Pre-Production</h3>
-                    <p class="description">Concept development, scriptwriting, budgeting, and storyboarding.</p>
-                    <div class="project-highlight">
-                        <h4>Current Project:</h4>
-                        <p><strong>Harpal</strong> <span class="tag">(Romantic Story)</span></p>
-                    </div>
-                </div>
+    <footer><p>&copy; 2025 Atherium Pictures.</p></footer>
 
-                <div class="service-card project-phase production">
-                    <h3><i class="fas fa-video"></i> Production</h3>
-                    <p class="description">On-set filming, cinematography, sound recording, and direction.</p>
-                    <div class="project-highlight">
-                        <h4>Current Project:</h4>
-                        <p><em>The Wrong Girl 3 Episode 3 - The Result</em></p>
-                    </div>
-                </div>
-
-                <div class="service-card project-phase post-production">
-                    <h3><i class="fas fa-cut"></i> Post-Production</h3>
-                    <p class="description">Editing, VFX, color grading, sound mixing, and final mastering.</p>
-                    <div class="project-highlight">
-                        <h4>Current Project:</h4>
-                        <p><strong>The Wrong Girl 3 Episode 3 - The Result</strong></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="collaborations" class="content-section">
-            <h2 class="section-title">Collaborations</h2>
-            <div class="client-grid">
-                <div class="client-card">
-                    <img src="bab.jpg" alt="Work for Bablu Patil" class="client-work-preview">
-                    <h3>Bablu Patil</h3>
-                    <a href="https://www.instagram.com/bablu_patil_official/" target="_blank">@bablu_patil_official</a>
-                </div>
-                <div class="client-card">
-                    <img src="sid.jpg" alt="Work for Sid Shinde" class="client-work-preview">
-                    <h3>Sid Shinde</h3>
-                    <a href="https://www.instagram.com/si_d_shinde/" target="_blank">@si_d_shinde</a>
-                </div>
-                <div class="client-card">
-                    <img src="phoneworld.jpg" alt="Work for Sid Shinde" class="client-work-preview">
-                    <h3>phoneworldcomofficial</h3>
-                    <a href="https://www.instagram.com/phoneworldcomofficial_ozarmig/" target="_blank">@phoneworldcomofficial_ozarmig</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="enquiry" class="content-section dark-gradient">
-            <h2 class="section-title">LET'S CREATE TOGETHER</h2>
-            
-            <form id="enquiry-form" action="https://api.web3forms.com/submit" method="POST">
-                
-                <input type="hidden" name="access_key" value="b2cc5b37-2883-4c7f-bd50-317e7346976f">
-                <input type="hidden" name="subject" value="New Project Enquiry from Atherium Pictures Website">
-
-
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                </div>
-                
-                <textarea name="brief" placeholder="Project Brief / Details" rows="5" required></textarea>
-
-                <div class="service-options">
-                    <label class="service-option-header">Required Services:</label>
-                    <div class="checkbox-group">
-                        <label><input type="checkbox" name="service[]" value="Pre-Production"> Pre-Production</label>
-                        <label><input type="checkbox" name="service[]" value="Production"> Production</label>
-                        <label><input type="checkbox" name="service[]" value="Post-Production"> Post-Production</label>
-                        <label><input type="checkbox" name="service[]" value="All Stages"> All Stages</label>
-                    </div>
-                </div>
-                
-                <button type="submit" class="submit-button">SEND ENQUIRY</button>
-            </form>
-        </section>
-
-        <footer class="dark-footer">
-            <div class="social-links">
-                <a href="https://www.youtube.com/@atheriumpictures" target="_blank" aria-label="YouTube" class="social-icon"><i class="fab fa-youtube"></i></a>
-                <a href="https://www.instagram.com/atheriumpictures/" target="_blank" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
-            </div>
-            <p>&copy; 2024 Atherium Pictures.</p>
-        </footer>
-
-    </main>
-
-    <script src="script.js"></script>
+    <script>
+        window.addEventListener('load', () => { setTimeout(() => {
+            const splash = document.getElementById('splash-screen');
+            splash.style.opacity = '0'; splash.style.visibility = 'hidden';
+        }, 2000); });
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                if (reveals[i].getBoundingClientRect().top < window.innerHeight - 150) { reveals[i].classList.add('active'); }
+            }
+        }
+        reveal();
+    </script>
 </body>
 </html>

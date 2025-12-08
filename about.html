@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atherium Pictures | About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Atherium PicturesAP.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ATHERIUM PICTURES</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container reveal">
+            <h1>Who We Are</h1>
+            <p class="subtitle">The Minds Behind The Lens</p>
+        </div>
+    </div>
+
+    <section id="leadership">
+        <div class="container reveal">
+            <h2 class="section-title">Leadership</h2>
+            <div class="leaders-grid">
+                <div class="leader-card">
+                    <img src="566384410_17897946186301870_4395720164150271234_n.jpg" alt="Arnav Kushare" class="leader-img">
+                    <h3>Arnav Kushare</h3>
+                    <span>CEO / Writer / Director</span>
+                </div>
+                <div class="leader-card">
+                    <img src="474687683_17998784219723500_3175376979814945905_n.webp" alt="Gaurang Dalal" class="leader-img">
+                    <h3>Gaurang Dalal</h3>
+                    <span>Co-CEO / Writer / Director</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2025 Atherium Pictures.</p></footer>
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                if (reveals[i].getBoundingClientRect().top < window.innerHeight - 150) { reveals[i].classList.add('active'); }
+            }
+        }
+        reveal();
+    </script>
+</body>
+</html>

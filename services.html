@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atherium Pictures | Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Atherium PicturesAP.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ATHERIUM PICTURES</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container reveal">
+            <h1>Our Craft</h1>
+            <p class="subtitle">Comprehensive Production Services</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container reveal">
+            <h2 class="section-title">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h3>Pre-Production</h3>
+                    <p>Conceptualization, Scriptwriting, Storyboarding, Location Scouting, and Budgeting.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-video"></i>
+                    <h3>Production</h3>
+                    <p>Direction, Cinematography, Sound Recording, Lighting, and On-Set Management.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-film"></i>
+                    <h3>Post-Production</h3>
+                    <p>Video Editing, VFX, Color Grading, Sound Mixing, and Final Mastering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2025 Atherium Pictures.</p></footer>
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                if (reveals[i].getBoundingClientRect().top < window.innerHeight - 150) { reveals[i].classList.add('active'); }
+            }
+        }
+        reveal();
+    </script>
+</body>
+</html>
